@@ -1,0 +1,10 @@
+git add "nome do arquivo"	 	manda arquivo pro stage (pré salvamento)
+git commit -m "mensagem" 	 	consolida o checkpoint / commit
+git status 			 	mostra o status da branch atual
+git init . 			 	cria um novo repositório git na pasta
+git log				 	exibe o histórico de commits
+git reset			 	retorna tudo em stage (último commit) para unstage
+git reset idCommit 		 	retorna para pós commit
+git checkout "nome da branch"    	alterna entre as branchs
+git checkout -b "nome da branch"   	troca de branch para uma nova branch
+git pull				puxa o repositório remoto para o local, preferencialmente o main
