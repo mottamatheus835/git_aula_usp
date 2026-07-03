@@ -18,3 +18,4 @@ git config
 --global user.email "email"  		configura o e-mail de usuário
 git config 
 --global user.name 			"nome de usuário"configura o nome de usuário
+git add -f "nome arquivo"		adiciona em stage forçadamente os arquivo ignorados, mas só deve ser usado em exceções
