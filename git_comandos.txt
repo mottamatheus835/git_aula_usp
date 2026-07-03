@@ -8,4 +8,7 @@ git reset idCommit 		 	retorna para pós commit
 git checkout "nome da branch"    	alterna entre as branchs
 git checkout -b "nome da branch"   	troca de branch para uma nova branch
 git pull				puxa o repositório remoto para o local, preferencialmente o main
+git push				empurra para o repositório remoto
+ssh-keygen -t rsa			criação de chave ssh para identificação 
+cat ~/.ssh/id_rsa.pub
 git commit -a				adiciona tudo e já comita ao mesmo tempo. Abre um interativo para inserir a mensagem
