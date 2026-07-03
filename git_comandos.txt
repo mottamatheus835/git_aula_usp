@@ -12,3 +12,9 @@ git push				empurra para o repositório remoto
 ssh-keygen -t rsa			criação de chave ssh para identificação 
 cat ~/.ssh/id_rsa.pub
 git commit -a				adiciona tudo e já comita ao mesmo tempo. Abre um interativo para inserir a mensagem
+git config user.name			traz qual o nome de usuário salvo
+git config user.email			traz qual o e-mail de usuário salvo
+git config 
+--global user.email "email"  		configura o e-mail de usuário
+git config 
+--global user.name 			"nome de usuário"configura o nome de usuário
